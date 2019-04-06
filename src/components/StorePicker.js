@@ -21,7 +21,7 @@ class StorePicker extends React.Component {
 		const storeName = this.myInput.value.value
 		//3. Change the page to /store/userinput
 		this.props.history.push(`/store/${storeName}`);
-	}
+	};
 	render() {
 		return (
 			<form className="store-selector" onSubmit={this.goToStore}>
